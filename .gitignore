@@ -1,0 +1,53 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.sqlite3
+*.db
+*.pkl
+*.env
+.env
+.env.*
+
+# pipenv / poetry / virtualenv
+.venv/
+venv/
+pip-wheel-metadata/
+pip-log.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# mypy / pyright / pylint / coverage
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+.tox/
+*.cover
+
+# Alembic
+alembic/versions/__pycache__/
+
+# === PyCharm ===
+.idea/
+*.iml
+
+# === OS-specific ===
+.DS_Store  # macOS
+Thumbs.db  # Windows
+desktop.ini  # Windows
+
+# === VS Code (на всякий случай, если используется) ===
+.vscode/
+
+# === Test artifacts ===
+test-results/
+coverage.xml
+*.pytest_cache/
